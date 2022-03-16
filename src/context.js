@@ -8,7 +8,7 @@ const AppPovider = ({ children }) => {
 
   const openSideBar = () => {
     setIsSideBarOpen(true);
-    console.log("workig....")
+    console.log("workig....");
   };
   const closeSideBar = () => {
     setIsSideBarOpen(false);
@@ -18,7 +18,7 @@ const AppPovider = ({ children }) => {
   };
   const closeModal = () => {
     setIsModalOpen(false);
-    console.log("close modal working...")
+   
   };
   return (
     <AppContext.Provider
@@ -31,7 +31,6 @@ const AppPovider = ({ children }) => {
         closeSideBar,
       }}
     >
-      
       {children}
     </AppContext.Provider>
   );

@@ -7,7 +7,7 @@ ReactDOM.render(
   <React.StrictMode>
     <AppPovider>
       <App />
-    </AppPovider> 
+    </AppPovider>
   </React.StrictMode>,
   document.getElementById("root")
 );
